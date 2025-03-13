@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href=""><img src="logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.Html">COURSE</a></li>
+                    <li><a href="Blog.Html">BLOG</a></li>
+                    <li><a href="Contact.Html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact US</h1>
+    </section>
+
+<!-- Contact US -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.802337107689!2d77.16571197559371!3d28.63568567566299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d02c6d73c6859%3A0x1693dd546b1255fe!2sPusa%2C%20Government%20Industrial%20Training%20Institute!5e0!3m2!1sen!2sin!4v1739381866864!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span>
+                        <h5>Govt. Industrial Training Institute, Pusa</h5>
+                        <p>Pusa Campus, New Delhi-110012</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>
+                        <h5>011-21522833, 011-21521477</h5>
+                        <p>Monday to Friday 08:30 Am to 05:00 Pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <span>
+                        <h5>itipusa@hotmail.com, itipusa.delhi@gov.in</h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <div class="comment-box2">
+                    
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <input type="text" placeholder="Enter Your Subject">
+                        <textarea rows="8">
+                            </textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----JavaScript for toggle menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+<!-- Footer -->
+
+    <section class="footer">
+        <h4>About US</h4>
+        <p>
+            "We are committed to nurturing future leaders by providing a world-class education, <BR> A vibrant campus
+            life, and endless opportunities for growth. Join us in shaping a brighter future.<br> Stay connected with us
+            through our social media channels and reach out for any inquiries.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <p>
+            Made With <i class="fa fa-heart-o" aria-hidden="true"></i> by Sahil Kumar
+        </p>
+    </section>
+
+</body>
+
+</html>
+</body>
+</html>
