@@ -9,8 +9,13 @@ var navLinks = document.getElementById("navLinks");
             }
 
 homeAlert=document.querySelector(".HomeAlert");
-console.log(homeAlert);
 
 homeAlert.addEventListener("click", () => {
     alert("Already At Home Page")
+})
+
+aboutAlert=document.querySelector("#HomeAlert");
+
+aboutAlert.addEventListener("click", () => {
+    alert("Already At About Page")
 })
