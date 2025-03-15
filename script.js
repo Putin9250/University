@@ -33,12 +33,12 @@ if (courseAlert) {
 
 if (blogAlert) {
     blogAlert.addEventListener("click", () => {
-    alert("Already At Course Page");
+    alert("Already At Blog Page");
   });
 }
 
 if (contactAlert) {
-    contactAlert.addEventListener("click", () => {
-    alert("Already At Course Page");
+  contactAlert.addEventListener("click", () => {
+    alert("Already At Contact Page");
   });
 }
